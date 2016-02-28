@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active" ><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="http://kold.co.nf/message/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="http//spot4sms.pe.hu/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -33,7 +33,7 @@
 					<h4 class="panel-title">Verification</h4>
 				</div>
 				<div class="panel-body">
-					<form role="form" id = "myForm" method = "post" action = "http://kold.co.nf/message/signup2.php">
+					<form role="form" id = "myForm" method = "post" action = "http//spot4sms.pe.hu/signup2.php">
 					    <p style="color:green;font-weight: 30px;" > We have sent verification code to </p>
 						<div class = "form-group">
 						    <label for="mobileNumber" >Mobile Number</label>

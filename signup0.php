@@ -6,7 +6,7 @@ if(isset($_POST["mobileNumber"]))
 		$randomCode = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyz"), 0, 6);
         
         // 2 connect with mysql if error then die
-        $conn=mysqli_connect("fdb2.biz.nf","1959977_0460","ncw1otgpitw","1959977_0460");
+        $conn=mysqli_connect("mysql.hostinger.in","u321148073_naray","ncw1otgpitw","u321148073_sms");
         if (!$conn) { die("Connection failed: " . mysqli_connect_error()); }
 		
 		// if user exits than return to signup page
@@ -15,7 +15,7 @@ if(isset($_POST["mobileNumber"]))
                 
                 if (mysqli_num_rows($result) > 0) 
                 {
-                        header('Location: http://kold.co.nf/message/signup.php?mobileNumber='.$mobileNumber.'&exist=1');
+                        header('Location: http//spot4sms.pe.hu/signup.php?mobileNumber='.$mobileNumber.'&exist=1');
 		}
                 else
                 {
@@ -23,7 +23,7 @@ if(isset($_POST["mobileNumber"]))
 	          $sql = "insert into users (mobilenumber,password,verificationCode) values ('".$mobileNumber."','".$password."','".$randomCode."')";
 		  if (mysqli_query($conn, $sql)) 
 		     {
-    			header('Location: http://kold.co.nf/message/signup1.php?mobileNumber='.$mobileNumber.'&error=0');
+    			header('Location: http//spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=0');
         	     }
 		 else
                      {

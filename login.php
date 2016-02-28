@@ -6,7 +6,7 @@ if(isset($_POST["mobileNumber"]))
 		$password = $_POST["password"];
 		
         // connect with mysql
-        $conn=mysqli_connect("fdb2.biz.nf","1959977_0460","ncw1otgpitw","1959977_0460");
+        $conn=mysqli_connect("mysql.hostinger.in","u321148073_naray","ncw1otgpitw","u321148073_sms");
         if (!$conn) { die("Connection failed: " . mysqli_connect_error()); }
 		
 		$sql = "select * from users where mobilenumber = '".$mobileNumber."' and password = '".$password."'";
@@ -14,12 +14,12 @@ if(isset($_POST["mobileNumber"]))
 		if (mysqli_num_rows($result) > 0) 
 		{
 			$_SESSION['in']="yes";
-			header('Location: http://kold.co.nf/message/welcome.php');
+			header('Location: http//spot4sms.pe.hu/welcome.php');
 		}
 		else
 		{
 			
-          	header('Location: http://kold.co.nf/message/index.php?mobileNumber='.$mobileNumber.'&error=1');
+          	header('Location: http//spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber.'&error=1');
 		}
 		
 	}

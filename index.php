@@ -27,7 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2188e8', end
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://kold.co.nf/message/signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="http//spot4sms.pe.hu/signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li class="active" ><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
@@ -47,7 +47,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2188e8', end
 					<h4 class="panel-title">Login</h4>
 				</div>
 				<div class="panel-body">
-					<form role="form" id = "myForm" method = "post" action = "http://kold.co.nf/message/login.php">
+					<form role="form" id = "myForm" method = "post" action = "http//spot4sms.pe.hu/login.php">
 						<div class = "form-group">
 		  					<input type="text" class="form-control" id="mobileNumber" placeholder="Mobile Number" name = "mobileNumber" value=<?php if(isset($_GET['mobileNumber'])) echo $_GET['mobileNumber']; else echo ""; ?> >
 		  				</div>

@@ -8,7 +8,7 @@ if(isset($_POST["mobileNumber"]))
         
 
         // connect with mysql
-        $conn=mysqli_connect("fdb2.biz.nf","1959977_0460","ncw1otgpitw","1959977_0460");
+        $conn=mysqli_connect("mysql.hostinger.in","u321148073_naray","ncw1otgpitw","u321148073_sms");
         if (!$conn) { die("Connection failed: " . mysqli_connect_error()); }
 	
 		// verify the user
@@ -16,11 +16,11 @@ if(isset($_POST["mobileNumber"]))
 		$result = mysqli_query($conn, $sql);
 		if (mysqli_num_rows($result) > 0) 
 		{
-			header('Location: http://kold.co.nf/message/index.php?mobileNumber='.$mobileNumber);
+			header('Location: http//spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber);
 		}
 		else
 		{
-          	header('Location: http://kold.co.nf/message/signup1.php?mobileNumber='.$mobileNumber.'&error=1');
+          	header('Location: http//spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=1');
 		}
 	}
 
