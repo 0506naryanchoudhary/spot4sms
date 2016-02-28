@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active" ><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href=":http//spot4sms.pe.hu/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href=":http://spot4sms.pe.hu/index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>

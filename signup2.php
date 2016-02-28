@@ -16,11 +16,11 @@ if(isset($_POST["mobileNumber"]))
 		$result = mysqli_query($conn, $sql);
 		if (mysqli_num_rows($result) > 0) 
 		{
-			header('Location: http//spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber);
+			header('Location: http://spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber);
 		}
 		else
 		{
-          	header('Location: http//spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=1');
+          	header('Location: http://spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=1');
 		}
 	}
 

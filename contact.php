@@ -45,14 +45,14 @@ select::-webkit-scrollbar-thumb
  	   </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-      	<li><a href=http//spot4sms.pe.hu/send.php>Send</a></li>
+      	<li><a href=http://spot4sms.pe.hu/send.php>Send</a></li>
       	<li><a href=send.php>Sent</a></li>
       	<li class = "active"><a href=#>Contacts</a></li>
       	<li><a href=send.php>Schedule Messages</a></li>
       	<li><a href=send.php>Get APIs</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http//spot4sms.pe.hu/index.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
+        <li><a href="http://spot4sms.pe.hu/index.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
       </ul>
     </div>
   </div>

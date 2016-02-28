@@ -15,7 +15,7 @@ if(isset($_POST["mobileNumber"]))
                 
                 if (mysqli_num_rows($result) > 0) 
                 {
-                        header('Location: http//spot4sms.pe.hu/signup.php?mobileNumber='.$mobileNumber.'&exist=1');
+                        header('Location: http://spot4sms.pe.hu/signup.php?mobileNumber='.$mobileNumber.'&exist=1');
 		}
                 else
                 {
@@ -23,7 +23,7 @@ if(isset($_POST["mobileNumber"]))
 	          $sql = "insert into users (mobilenumber,password,verificationCode) values ('".$mobileNumber."','".$password."','".$randomCode."')";
 		  if (mysqli_query($conn, $sql)) 
 		     {
-    			header('Location: http//spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=0');
+    			header('Location: http://spot4sms.pe.hu/signup1.php?mobileNumber='.$mobileNumber.'&error=0');
         	     }
 		 else
                      {

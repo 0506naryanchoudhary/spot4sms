@@ -14,12 +14,12 @@ if(isset($_POST["mobileNumber"]))
 		if (mysqli_num_rows($result) > 0) 
 		{
 			$_SESSION['in']="yes";
-			header('Location: http//spot4sms.pe.hu/welcome.php');
+			header('Location: http://spot4sms.pe.hu/welcome.php');
 		}
 		else
 		{
 			
-          	header('Location: http//spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber.'&error=1');
+          	header('Location: http://spot4sms.pe.hu/index.php?mobileNumber='.$mobileNumber.'&error=1');
 		}
 		
 	}
