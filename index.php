@@ -124,21 +124,6 @@ $(document).ready(
 $(document).ready(function(){ $("#mobileNumber").focus(); })
 
 </script>
-<?php function httpGet($url)
-{
-    $ch = curl_init();  
- 
-    curl_setopt($ch,CURLOPT_URL,$url);
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
-//  curl_setopt($ch,CURLOPT_HEADER, false); 
- 
-    $output=curl_exec($ch);
- 
-    curl_close($ch);
-    return $output;
-}
- echo 'badiya he';
-echo httpGet("http://hayageek.com/examples/php/curl-examples/curl.php?name=Ravi&age=32&location=India");
-  ?>
+
 </body>
 </html>
